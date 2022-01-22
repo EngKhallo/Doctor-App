@@ -1,0 +1,3 @@
+npm init vite@latest doctors-app --template vue-ts
+
+write this on your cmd/terminal to create the Vue Project
