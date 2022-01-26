@@ -3,3 +3,6 @@ npm init vite@latest doctors-app --template vue-ts
 write this on your cmd/terminal to create the Vue Project
 
 Components are used for the re-usable things: buttons, alert, etc
+
+
+RouterLink : avoids page reload

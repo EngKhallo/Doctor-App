@@ -4,5 +4,18 @@
 
 
 .button{
-    @apply px-6 py-2 text-lg text-white rounded shadow-2xl bg-blue-600 transition hover:bg-indigo-500;
+    @apply font-semibold px-6 py-2 text-lg rounded shadow-2xl transition;
+}
+
+.btn-pink{
+    @apply bg-pink-600  text-white
+}
+
+.nav-item{
+    @apply text-gray-600 text-lg py-4 px-2 hover:text-green-500 hover:border-b-4 hover:border-green-500 transition
+    font-semibold;
+}
+
+.logo{
+    @apply text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-t from-green-500 to-blue-800;
 }
