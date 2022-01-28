@@ -6,3 +6,7 @@ Components are used for the re-usable things: buttons, alert, etc
 
 
 RouterLink : avoids page reload
+
+
+event modifiers: @submit.prevent
+                @usb
