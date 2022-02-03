@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from '@vue/reactivity';
-import {RouterLink} from 'vue-router'
+import {RouterLink} from 'vue-router';
 
 let isMenuShown = ref(true);
 
@@ -43,7 +43,7 @@ let isMenuShown = ref(true);
         <RouterLink to="/signup" class="button btn-pink">Signup</RouterLink>
       </div>
 
-      <div class="md:hidden menue text-gray-500" @click="isMenuShown = !isMenuShown">
+      <div class="md:hidden cursor-pointer menue text-gray-500" @click="isMenuShown = !isMenuShown">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6"
